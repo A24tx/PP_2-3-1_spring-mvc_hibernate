@@ -17,6 +17,7 @@ public class HibernateUtil {
 
     private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("mypersistence");
 
+
     public static EntityManagerFactory getEntityManagerFactory() {
         return emf;
     }

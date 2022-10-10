@@ -3,7 +3,7 @@ package web.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "usertable")
+@Table(name = "usertable_pp231")
 public class User {
     @Id
     @GeneratedValue
